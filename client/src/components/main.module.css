@@ -1,0 +1,205 @@
+/* dark blue = rgb(4,43,91)
+light blue = rgb(88,225,226)
+white = rgb(255,255,255)
+teal eyes = rgb(96,246,246)
+font blue = rgb(72,158,244) */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.img {
+    width: 200px;
+}
+
+.background{
+    background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background2{
+
+    background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-style: bold;
+    /* background-color: rgb(255,250,250); */
+}
+.background3{
+    background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+
+}
+.background4{
+    background-image: url(https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+.background5{
+    background-image: url(https://images.pexels.com/photos/1004525/pexels-photo-1004525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+.background6{
+    background-image: url(https://motionarray.imgix.net/preview-851372-ficpAbLmbG0WTger-large.jpg?w=660&q=60&fit=max&auto=format);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+.background7{
+    background-image: url(https://img.freepik.com/premium-photo/black-food-cooking-background-stone-texture-with-sea-salt-pepper-garlic-parsley-abstract-food-background-empty-space-text-can-be-used-food-posters-design-menu-top-view_253362-15861.jpg?w=900);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+
+
+.container3{
+    display: flex;
+    color:black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-style: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+.container4{
+    margin-top: 20%;
+    display: flex;
+    color: white;
+    border-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    font-style: bold;
+    border: 10px solid;
+    margin-left:18%;
+    margin-right: 18%;
+    padding-bottom: 25px;
+}
+.container5{
+    display: flex;
+    color:black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-style: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+.btn{
+    background-color: white;
+    font: 200;
+    height: 30px;
+    width: 100px;
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-evenly;
+}
+.btn2{
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    font-size: large;
+    padding: 3px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 35px;
+}
+.form{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    margin:5px
+}
+.headerdiv{
+    display: flex;
+    z-index: 3;
+    padding: 10px;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.table, td{
+    border: 3px solid;
+    font-size: 50px;
+}
+
+.text{
+    color: whitesmoke
+}
+
+.image{
+    width: 300px
+}
